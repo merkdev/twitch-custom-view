@@ -25,3 +25,5 @@ $ npm run start:dev
 
 ## Demo and production use
 [💻 DEMO & WATCH ONLINE](https://twitch-custom-view.herokuapp.com/)
+
+Idea from __kadgar.net__
