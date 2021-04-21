@@ -1,0 +1,22 @@
+<div class="twitch-bg-color">
+  <div class="container py-2">
+    <div class="row">
+      <div class="col-3">
+        <span class="fw-bold">
+          <a href="/" class="logo-link">
+            Twitch Custom View
+          </a>
+        </span>
+      </div>
+      <div class="col-9 text-end">
+        {{#if userData}}
+        <img width="25" height="25" src="{{userData.data.[0].profile_image_url}}" class="mr-2">
+        Welcome, <span class="fw-bold">{{userData.data.[0].display_name}}</span>
+        {{else}}
+        <a href="/" class="link-light">Please Login</a>
+        {{/if}}
+
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,46 @@
+{{> menu}}
+
+<div class="container pt-5">
+  <div class="col-12">
+    <h2>Live Channels</h2>
+    <hr>
+  </div>
+  <div class="row gy-3">
+    {{#each userData.live_channels.data}}
+    <div class="col-3">
+      <div class="card">
+        <img src="{{thumbnail_url}}" class="card-img-top" alt="channel logo">
+        <div class="card-img-overlay text-white">
+          <p class="card-text">{{viewer_count}} viewers</p>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">{{user_name}}</h5>
+          <p class="card-text text-muted fw-light text-truncate">{{title}}</p>
+          <a href="/watch/{{user_name}}" class="btn btn-success stretched-link">Watch Now</a>
+        </div>
+      </div>
+    </div>
+    {{/each}}
+  </div>
+</div>
+
+<div class="container pt-5">
+  <div class="col-12">
+    <h2>Following Channels</h2>
+    <hr>
+  </div>
+  <div class="row gy-3">
+    {{#each userData.following_channels.follows}}
+    {{#with channel}}
+    <div class="col-3">
+      <div class="card">
+        <img src="{{logo}}" class="card-img-top" alt="channel logo">
+        <div class="card-body">
+          <h5 class="card-title">{{display_name}}</h5>
+        </div>
+      </div>
+    </div>
+    {{/with}}
+    {{/each}}
+  </div>
+</div>

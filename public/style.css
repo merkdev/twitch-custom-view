@@ -1,0 +1,19 @@
+.twitch-bg-color {
+  background-color: #9150fb;
+  color: #fff;
+}
+
+a.twitch-bg-color:hover {
+  background-color: #a671fc;
+  color: #fff;
+}
+
+.logo-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.logo-link:hover {
+  color: #fff;
+  text-decoration: none;
+}
