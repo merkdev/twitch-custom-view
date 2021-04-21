@@ -20,6 +20,7 @@ DOMAIN= //Enter production domain
 
 ```sh
 $ npm install
+$ npm run start:dev
 ```
 
 ## Demo and production use
