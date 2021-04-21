@@ -14,7 +14,7 @@ git clone https://github.com/merkdev/twitch-custom-view
 ```
 
 Create **.env** file and paste following;
-```.env
+```javascript
 TWITCH_CLIENT_ID= // Get this on twitch developer page
 TWITCH_SECRET= // Get this on twitch developer page
 SESSION_SECRET= // Some random strings for security
