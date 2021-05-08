@@ -3,7 +3,7 @@
 
 Source code of https://twitch-custom-view.herokuapp.com/
 
-A custom website you can connect with your twitch account and watch twitch streamers you already follow. It's like a simple [twitch.tv](https://www.twitch.tv) clone.
+A custom website you can connect with your twitch account and watch twitch streamers you follow. It's like a simple [twitch.tv](https://www.twitch.tv) clone.
 
 ## Setup & Installation
 After you have cloned this repository, create .env file and use [npm](https://www.npmjs.com/) to install dependencies.
